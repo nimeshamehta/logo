@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body
+{
+ font-family: montserrat;
+}
+
+nav
+{
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: 3B73DD;
+    color: #CFE6F8;
+
+}
+.right-section ul {
+    display: flex;
+    column-gap: 2rem;
+}
+
+
+ .nav-icon{
+    margin-right: 50px;
+    color: white;
+   
+}
+
+
+
+.button-nav 
+ {
+    columns: 6;
+    align-items: center;
+    color: black;
+    background-color: white;
+    justify-content: space-between;
+    padding: 15px ;
+    
+} 
+ .click-hos{ 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+ul{
+    display: none;
+    position: absolute;
+    top: 0;
+} 
+
+.click-hos:hover ul{
+    display: block;
+}
+
+.click-dep{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+ul{
+    display: none;
+    position: absolute;
+    top: 0;
+}
+
+.click-dep:hover ul{
+    display: block;
+}
+
+
+
+.font-img{
+   height: 1440;
+   width: 758;
+}
+.footer-nav
+{
+    background-color: 004183;
+    position: absolute; 
+    display: inline-block;
+    border-bottom-left-radius : 0; 
+    left: 0; 
+    line-height: 2;
+}
+.footer-nav ul
+{
+    height: 250px;
+    width: 1400px;
+    display: block;
+    margin: 20px;
+    justify-content: center;
+    padding: 10px;
+    line-height: 3;
+    right: 100px;
+
+    
+}
+.footer-nav-flex ul
+{
+    display: block;
+    text-align: center;
+    margin-top: 1%;
+    position: absolute;
+    top: 0;
+   
+}
+.feedback-sedction ul 
+{
+    top: 0;
+    position: absolute;
+    right: 150px;
+}
+
+.box
+{
+  padding: 5;
+  width: 270px;
+  height: 55px;
+  background-color: 355695;
+  left: 850px;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  
+
+}
+
+.box-second
+{
+    width: 270px;
+    height: 55px;
+    background-color: 355695;
+    padding: 5px;
+    align-items: center;
+
+    position: absolute;
+    right: 30px;
+    top:100;
+  }  
+
+.box-third
+{
+    width: 500px;
+    height: 64px;
+    background-color: 355695;
+    padding: 10px;
+    margin: 10px;
+    align-items: center; 
+    left: 900px;
+    position: absolute;
+    
+
+
+   
+}
+.box-forth
+{
+    width: 619px;
+    height: 163px;
+    background-color: 355695;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+
+}
+.box-fifth
+{
+    width: 450px;
+    height: 120px;
+    background-color: FFFFFF;
+    padding : 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.box-fifth ul
+{
+    width: 83px;
+    height: 80px;
+    display: inline;
+    margin-top: 10px;
+
+    
+
+}
+
+
+   
+  
+
+
